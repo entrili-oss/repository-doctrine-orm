@@ -1,8 +1,8 @@
 {
-    "name": "php-xapi/repository-doctrine-orm",
+    "name": "entrili-oss/repository-doctrine-orm",
     "description": "Doctrine based ORM implementations of an Experience API (xAPI) repository",
     "keywords": ["xAPI", "Tin Can API", "Experience API", "storage", "database", "repository", "entity", "Doctrine", "ORM"],
-    "homepage": "https://github.com/php-xapi/repository-orm/",
+    "homepage": "https://github.com/entrili-oss/repository-doctrine-orm/",
     "license": "MIT",
     "authors": [
         {
@@ -13,14 +13,14 @@
     "require": {
         "php": "^5.3 || ^7.0",
         "doctrine/orm": "^2.3",
-        "php-xapi/repository-api": "^0.3",
-        "php-xapi/repository-doctrine": "^0.3"
+        "entrili-oss/repository-api": "^0.3",:
+        "entrili-oss/repository-doctrine": "^0.3"
     },
     "require-dev": {
-        "php-xapi/model": "^1.0.1"
+        "entrili-oss/model": "^1.0.1"
     },
     "provide": {
-        "php-xapi/repository-implementation": "0.3"
+        "entrili-oss/repository-implementation": "0.3"
     },
     "autoload": {
         "psr-4": {
