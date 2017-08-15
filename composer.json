@@ -10,6 +10,20 @@
             "homepage": "https://github.com/xabbuh"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/entrili-oss/repository-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/entrili-oss/repository-doctrine"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/entrili-oss/model"
+        }
+    ],
     "require": {
         "php": "^5.3 || ^7.0",
         "doctrine/orm": "^2.3",
