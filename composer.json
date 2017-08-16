@@ -27,7 +27,7 @@
     "require": {
         "php": "^5.3 || ^7.0",
         "doctrine/orm": "^2.3",
-        "entrili-oss/repository-api": "^0.4",:
+        "entrili-oss/repository-api": "^0.4",
         "entrili-oss/repository-doctrine": "^0.3"
     },
     "require-dev": {
